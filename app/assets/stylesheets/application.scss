@@ -1,0 +1,128 @@
+@import "bootstrap";
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color:#4985cb
+}
+
+h1{
+    text-align:center;
+    color:white;
+}
+
+#CreateAccount
+{
+    width:200px;
+    margin-left:90px;
+    position:absolute;
+}
+
+.icon{
+    border-radius: 20%;
+
+}
+
+
+.showprofile{
+    background-color:whitesmoke;
+    margin:2%;
+    padding:2%;
+    border:grey 2px solid;
+}
+
+.fields{
+    margin-left:30px;
+    margin-top:30px;
+}
+
+
+#form{
+    width:50%;
+    background-color:whitesmoke;
+    margin-left:25%;
+    height:100%;
+    border-radius:2%;
+    margin-top:2%;
+    border:grey 2px solid;
+   
+}
+#form li{
+    padding-left:5%;
+    padding-right:5%;
+    margin:3px;
+    list-style:none;
+    color:black;
+}
+
+
+
+#form li:focus{
+    margin:10px;
+    list-style:none;
+    color:black;
+    background-color:lightblue;
+    border: 3px solid #555;
+}
+
+
+
+#createform{
+    background-color:white;
+    margin-top:1%;
+    height:100%;
+    border-style: grey 5px;
+    
+}
+
+.formicon{
+    margin:20px;
+    border-radius:5%;
+    margin-left:40%;
+    border:solid 2px;
+}
+
+#createbutton{
+    margin-top:4%;
+    width:100%;
+    margin-bottom:5%;
+}
+
+#description{
+    resize:none;
+}
+
+
+#ViewAccount{
+    margin-top:10%;
+    margin-bottom:2%;
+    width:100%;
+    
+}
+
+.ProfilePage{
+    margin-top: 2px;
+    background:white;
+    height:100%;
+    
+}
+
+.ProfilePicture{
+        height: 200px;
+        width:200px;
+        padding:1%;
+}
+
+.HomeProfilePicture{
+    height:200px;
+    width:100%;
+    padding:1%;
+    
+}
+

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   
+
+    <title></title>
+  </head>
+  <body>
+
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+         <a href="/profiles"><img class='icon' src="/assets/Icon.png" width="50" height="50" alt="" ></a>
+              <a class="btn btn-warning" href="/profiles/new" role="button" id="CreateAccount">Create Account</a>
+               <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Users" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+           </form>
+    </nav>
+
+
+ <!-- <div class='spacer'> -->
+        
+  <!--  </div> -->
+
+  <div class="container">
+    <div id="form" class="form-group">
+      <img src="/assets/Icon.png" class="formicon">
+      <%= form_for @profile do |g| %>
+      <li><%= label_tag :name, "Name:" %></li>
+      <li><%= g.text_field :name, class:"form-control" %></li>
+      <li><%= label_tag :age,"Age:" %>
+      <li><%= g.text_field :age, class:"form-control" %></li>
+      <li><%= label_tag :likes, "Likes:" %>
+      <li><%= g.text_field :likes, class:"form-control" %></li>
+      <li><%= label_tag :likes, "Dislikes:" %>
+      <li><%= g.text_field :dislikes, class:"form-control" %></li>
+      <li><%= label_tag :description, "Description:" %>
+      <li><%= g.text_area :description, class:"form-control",rows:"3", id:"description" %></li>
+      <li><%= g.submit "Create", class:"btn btn-warning", id:"createbutton"%></li>
+
+      <% end %>
+    </div> 
+  </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
