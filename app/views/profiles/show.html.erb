@@ -26,19 +26,30 @@
         
 
     <div class="ProfilePage col-10 mx-auto">
-      <div><img class="ProfilePicture" src="/assets/NoPhoto.jpg"></div>
-      <div> Name:
-        <%=@profile.name%>
-      </div>
-      <div> Age:
-        <%=@profile.age%>
-      </div>
-      <div> Likes:
-        <%=@profile.likes%>
-      </div>
-      <div> Dislikes:
-        <%=@profile.dislikes%>
-      </div>
+      <span><img class="ProfilePicture" src="/assets/NoPhoto.jpg"></span>
+        <div class="ProfileInfo">
+
+          <div> Name:
+            <%=@profile.name%>
+          </div>
+
+          <div> Age:
+            <%=@profile.age%>
+          </div>
+
+          <div> Likes:
+            <%=@profile.likes%>
+          </div>
+
+          <div> Dislikes:
+            <%=@profile.dislikes%>
+          </div>
+
+          <div> Description:
+            <%=@profile.description%>
+          </div>  
+
+        </div>
     </div>
 
 

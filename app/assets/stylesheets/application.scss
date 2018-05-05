@@ -109,7 +109,8 @@ h1{
 .ProfilePage{
     margin-top: 2px;
     background:white;
-    height:100%;
+    height:850px;
+    padding:0;
     
 }
 
@@ -124,5 +125,11 @@ h1{
     width:100%;
     padding:1%;
     
+}
+
+.ProfileInfo{
+    background-color: whitesmoke;
+    width: 100%;
+    height:20%;
 }
 
